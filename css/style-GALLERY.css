@@ -1,0 +1,69 @@
+html, body {
+  width: 100%;
+  height: 100%;
+}
+
+.container {
+  padding: 75px 0;
+  margin: 0 auto;
+  width: 1140px;
+  margin-top: 180px
+}
+
+h1 {
+  position: relative;
+  margin-bottom: 45px;
+  font-family: "Oswald", sans-serif;
+  font-size: 44px;
+  text-transform: uppercase;
+  color:white;
+}
+
+.gallery-wrap {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  height: 70vh;
+}
+
+.item {
+  flex: 1;
+  height: 100%;
+  background-position: center;
+  background-size: cover;
+  background-repeat: none;
+  transition: flex 0.8s ease;
+}
+.item:hover {
+  flex: 7;
+}
+
+.item-1 {
+  background-image: url("../img/tap chi mockup.jpg");
+}
+
+.item-2 {
+  background-image: url("../img/239626761_1426988797663390_8109678021283448750_n.jpg");
+}
+
+.item-3 {
+  background-image: url("../img/4110168.jpg");
+}
+
+.item-4 {
+  background-image: url("../img/no2.png");
+}
+
+.item-5 {
+  background-image: url("../img/5164868.jpg");
+}
+
+.social {
+  position: absolute;
+  right: 35px;
+  bottom: 0;
+}
+.social img {
+  display: block;
+  width: 32px;
+}
